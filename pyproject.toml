@@ -1,6 +1,6 @@
 [project]
 name = "pycrafter"
-version = "0.0.3"
+version = "0.0.4"
 description = "Text extraction from images using ONNX runtime and CRAFT net"
 readme = "README.md"
 license = "MIT"
@@ -9,6 +9,8 @@ keywords = [
     "text detection",
     "CRAFT",
     "onnx",
+    "neural net",
+    "OCR",
 ]
 authors = [
     { name = "Mike Kroutikov", email = "mkroutikov@innodata.com" }
