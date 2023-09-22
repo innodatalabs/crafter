@@ -1,10 +1,10 @@
 [project]
 name = "pycrafter"
-version = "0.0.4"
+version = "0.0.7"
 description = "Text extraction from images using ONNX runtime and CRAFT net"
 readme = "README.md"
 license = "MIT"
-requires-python = ">=3.9"
+requires-python = ">=3.8"
 keywords = [
     "text detection",
     "CRAFT",
@@ -29,7 +29,8 @@ classifiers = [
   "Topic :: Software Development :: Libraries",
 ]
 dependencies = [
-    "onnxruntime~=1.14.1",
+    "onnxruntime~=1.15.0",
+    "opencv-python-headless~=4.8.0.76",
 ]
 [project.urls]
 Homepage = "https://github.com/innodatalabs/crafter"

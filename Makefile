@@ -4,4 +4,4 @@ test:
 	PYTHONPATH=. pytest
 
 wheel:
-	python -m build --wheel .
+	pip wheel .
